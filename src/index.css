@@ -1,0 +1,115 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.ID-card {
+  width: 400px;
+  height: 250px;
+  margin-top: 1px;
+  margin-left: 15px;
+  position: relative;
+  padding: 20px;
+  border-radius: 10px;
+  background-image: url("https://i.ibb.co/NL188dQ/white-wood.png");
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  box-shadow: 2px 5px 8px rgba(0, 0, 0, 0.35);
+  z-index: 10;
+  filter: opacity(90%);
+}
+
+.top-row {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 5px 0;
+}
+
+.flag {
+  height: 50px;
+  margin-right: 5px;
+}
+
+.card-title, .card-title-en {
+  line-height: 100%;
+}
+
+.name, .name-en, .ID-number {
+  font-weight: normal;
+}
+
+.card-title-en {
+  margin-left: auto;
+}
+
+.middle-row {
+  margin-top: 30px;
+  display: inline-block;
+}
+
+.bottom-row {
+  position: absolute;
+  bottom: 20px;
+      right: 70px;
+}
+
+.ID-photo {
+  display: block;
+  width: 100px;
+  height: 128px;
+  background-image: url("https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png");
+  background-repeat: no-repeat;
+
+  background-size: 100px;
+  position: absolute;
+  top: 60px;
+  right: 20px;
+}
+
+.series-number {
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+  position: absolute;
+  right: 20px;
+  bottom: 100px;
+  z-index: 10;
+}
+
+.signature-title {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+}
+
+.signature {
+  font-family: "Liu Jian Mao Cao", cursive;
+  font-weight: 100;
+  position: absolute;
+  right: 40px;
+  bottom: 35px;
+}
+
+.ID-number {
+  line-height: 100%;
+  margin-top: 5px;
+}
+
+.title {
+  text-align: center;
+  margin: 16px;
+  font-weight: normal;
+  font-size: 16px;
+  width: 100%;
+  position: absolute;
+  bottom: 20px;
+  z-index: 10;
+}
