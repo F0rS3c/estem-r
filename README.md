@@ -7,6 +7,7 @@ this is a project that contained all exercices that we did since the 1st day in 
 - <code>npm run install</code>
 - <code>npm start</code>
 - App should now be running on <code>http://localhost:3000/</code>
+- requirement stay online !! (i used tailwind CDN instead of package )
 
 <br/>
 <br/>
